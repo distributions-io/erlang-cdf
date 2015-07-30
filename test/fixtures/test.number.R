@@ -1,8 +1,8 @@
 options( digits = 16 )
 library( jsonlite )
 
-k = 1
-lambda = 1
+k = 6
+lambda = 4
 x = c( -5, -2.5, 0, 2.5, 5 )
 y = pgamma( x, k, lambda )
 

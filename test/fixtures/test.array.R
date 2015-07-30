@@ -2,8 +2,8 @@ options( digits = 16 )
 library( jsonlite )
 
 k = 1
-lambda = 1
-x = seq( -1000, 1000, 0.5 )
+lambda = 0.4
+x = seq( -1, 1000, 0.5 )
 y = pgamma( x, k, lambda )
 
 cat( y, sep = ",\n" )
